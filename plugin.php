@@ -21,6 +21,6 @@
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function blocks_course_todo_list_info_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ );
 }
 add_action( 'init', 'blocks_course_todo_list_info_block_init' );
